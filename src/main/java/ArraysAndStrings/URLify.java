@@ -6,6 +6,11 @@ public class URLify {
         //has sufficient space at the end to hold the additional characters, and that you are given the "true"
         //length of the string. (Note: If implementing in Java, please use a character array so that you can
         //perform this operation in place.)
+
+
+        //I'm assuming here that the size of the array is the exact size of the string after making the changes
+        //In case that assumption cannot be made, we would calculate the number of spaces up until the true length
+        //and then calculate index as (trueLength + numberOfSpaces*2) and use that value
         int index = str.length;
         for (int i = trueLength-1; i >=0 ; i--) {
             if(str[i]==' ')
