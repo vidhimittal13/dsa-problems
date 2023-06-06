@@ -14,7 +14,8 @@ public class isPermutation {
         Arrays.sort(b1);
         return Arrays.equals(a1, b1);
     }
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         String[][] pairs = {{"apple", "papel"}, {"carrot", "tarroc"}, {"hello", "llloh"}};
         for (String[] pair : pairs) {
             String word1 = pair[0];
